@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Port Jeff Robotics</title>
+    <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header
+      class="hero"
+      style="
+        min-height: 45vh;
+        background: linear-gradient(
+            rgba(13, 13, 13, 0.7),
+            rgba(13, 13, 13, 0.7)
+          ),
+          url('images/about-hero.png') center/cover no-repeat;
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <nav class="navbar">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="Port Jeff Robotics Logo" class="logo-img" /></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html">Previous FIRST Events</a></li>
+          <li><a href="sponsors.html">Sponsors</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h1 class="hero-title">About Us</h1>
+      </div>
+    </header>
+    <main class="section no-bottom-gap">
+      <div class="container about-flex">
+        <div class="about-text">
+          <h2 class="about-heading">Who We Are</h2>
+          <div class="about-paragraphs">
+            <p>
+              We are Port Jefferson and Mount Sinai Robotics Team, a group of
+              passionate students from both the Port Jefferson School Distruct
+              and the Mount Sinai School District, or known as Team 496. In the
+              our club, we design, build, and program robots to compete in the
+              FIRST Robotics Competition (FRC). Our team is dedicated to
+              fostering a love for STEM through hands-on learning and
+              collaboration.
+            </p>
+            <p>
+              In our club, we work together to solve complex engineering
+              challenges. We develop skills that are vital to prepare us for our
+              futures, some of which include engineering, writing, programming,
+              creativity, leadership, and teamwork.
+            </p>
+          </div>
+        </div>
+        <div class="about-img">
+          <img src="images/aboutus.png" alt="Team working" />
+        </div>
+      </div>
+          <!-- What We Do Section -->
+      <section class="section darker no-bottom-gap">
+        <div class="container about-flex">
+          <div class="about-img">
+            <img src="images/whatwedo.png" alt="Student working" />
+          </div>
+          <div class="about-text">
+            <h2 class="about-heading">What We Do</h2>
+            <div class="about-paragraphs">
+              <p>
+                Skills in designing, machining, and programming, 
+                 lay the foundations for our building process. Using  high-quality
+                3D printers, as well as high quality materials, our builders are able to design and construct our robot.
+                 Our programmers bring the robot to life
+                by coding and creating autonomous routines for the robot to
+                follow. Our drive team then operates the robot during competitions, after lots hard work and practice.
+              </p>
+              <p>
+                Our team also focuses on plenty of outreach, fundraising, and community events. In the past, we have participated in the Long Island Maker Faire, where we showcase our robot to onlooker; Applebees fundraising events, where we raise money for our small team; and participating in Port Jefferson School's Computer Science Carnival where we showcase our robot to the next generation of engineers.
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gap between What We Do and Our Mission -->
+      <div class="about-gap"></div>
+
+      <!-- Mission Section -->
+      <section class="section mission-section">
+        <div class="container about-flex">
+          <div class="about-text">
+            <h2 class="about-heading">Our Mission</h2>
+            <div class="about-paragraphs">
+          <p class="mission-wide-text">
+            Our mission every year is to perform to the best of our abilities in the FIRST Robotics competition at Hofstra University, working to the best of our extent with our limited budget and small team. Every year we see the culmination of our year's hard work pay off at the competition, where we compete against teams from all over the World. 
+          </p>
+        <p class="mission-wide-text">
+          Beyond competitions, our mission is to promote STEM growth and education in our communities and inspire our youth to be learn the principals of engineering and robotics. We aim to help promote curiosity and ignite passion for STEM through our fundraising and outreach events.
+          </p>
+          </div>
+          <img src="images/mission.png" alt="Team celebrating" style="max-width: 700px; width: 100%; height: auto; margin-top: 2rem;" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>© 2024 Port Jeff Robotics – FRC Team 496. All rights reserved.</p>
+    </footer>
+    <style>
+      .about-gap {
+        height: 3.5rem;
+        background: #f3f3f3;
+        width: 100%;
+      }
+      .about-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+      .about-text {
+        flex: 1 1 320px;
+        text-align: left;
+        max-width: 65vh;
+        margin-right: 0.5rem;
+      }
+      .about-heading {
+        max-width: 16ch;
+        margin-left: 0;
+        margin-right: auto;
+        text-align: left;
+        font-size: 2rem !important;
+        color: #111;
+        padding-left: 0;
+      }
+      .about-paragraphs {
+        max-width: 95%;
+      }
+      .about-paragraphs p {
+        font-size: 1.15rem;
+      }
+      .about-text h2,
+      .about-text h3,
+      .about-text h4 {
+        color: #111;
+        text-align: left;
+        margin-left: 0;
+      }
+      .about-img {
+        flex: 0 0 390px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .about-flex.reverse {
+        flex-direction: row-reverse;
+      }
+      .darker {
+        background: #f3f3f3;
+      }
+
+             .mission-section {
+         background: #f9f9f9;
+       }
+
+      .mission-section .about-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .mission-section .about-text {
+        margin-right: 0;
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .mission-section .about-heading {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .mission-section .about-paragraphs {
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .mission-section .mission-wide-text {
+        max-width: 70ch;
+        margin: 0 auto 2rem auto;
+      }
+      .mission-section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .about-img img {
+        max-width: 370px;
+        width: 100%;
+      }
+      .no-bottom-gap {
+        padding-bottom: 0 !important;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      main.section.no-bottom-gap {
+        flex: 1 0 auto;
+      }
+      .footer {
+        flex-shrink: 0;
+      }
+    </style>
+    <script src="script.js"></script>
+  </body>
+</html>
